@@ -20,3 +20,26 @@ A basic SEIR(D) epidemic modeling scheme using Python
    * **mathplotlib.pyplot**: plot and save the graphs and heatmap;
    * **PIL** and **glob**: generate a GIF from the heatmaps;
    * **time**: measure the execution time;
+   
+   
+### SEIR Elements Definitions
+   Each element of the SEIR(D) model will be represented by the integer part of a real number, and the decimal part can be interpreted as how far is the resident at determined stage.
+   * *SUSCEPTIBLE = 0*
+   * *EXPOSED = 1*
+   * *INFECTED = 2*
+   * *RECOVERED = 3*
+   * *DEAD = -2*
+   * *AUXILIARY = 77777*
+   The choice of *-2* for Death is due only to the color scale, which will be explained in some sections after. The AUXILIARy value is totally arbitrary.
+
+### General Parameters
+   This parameters will define the disease beahavior.
+   * *order*: the matrix order;
+   * *beta*: the infectiousness;
+   * *days*: how many days there'll be in the simulation;
+   * *t_zero*: tax of infestation in day one;
+   * *days_incubated*: how many days the agent takes to become active;
+   * *i_incubated*: value of the daily increment of the stage *Exposed*;
+   * *days_infected*: how many days the agent takes to become inative again or be exterminated by the organism;
+   * *i_infected*: value of the dayly increment of the stage *Infected*;
+   * *death_prob*: the death probability in each day/iteration;

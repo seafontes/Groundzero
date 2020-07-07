@@ -30,6 +30,8 @@ A basic SEIR(D) epidemic modeling scheme using Python
    * *RECOVERED = 3*
    * *DEAD = -2*
    * *AUXILIARY = 77777*
+   
+   
    The choice of *-2* for Death is due only to the color scale, which will be explained in some sections after. The AUXILIARy value is totally arbitrary.
 
 ### General Parameters

@@ -56,12 +56,7 @@ death_prob = 0.005  # death probability
 
 
 def count_elements(city, element):  # returns the number of a determined type of element,ex.: count_elements(city, DEAD)
-    count = 0
-    for i in range(order):
-        for j in range(order):
-            if math.floor(city[i][j]) == element:
-                count += 1
-    return str(count)
+    return np.count_nonzero(city.astype(int) == element)
 
 
 def infected_neighbors(i, j, city):  # returns the number of infected neighbors for an specified cell

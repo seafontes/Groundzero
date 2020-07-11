@@ -109,8 +109,7 @@ def infection_test(i, j, city):  # boolean test if an cell got infected during a
     luck = random.random()
     if luck <= cap:
         return True
-    else:
-        return False
+     return False
 
 
 def write_data(t, city) -> object:  # writes the data of each iteration on an .txt file for further analysis

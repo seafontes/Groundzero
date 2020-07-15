@@ -7,7 +7,7 @@ A basic SEIR(D) epidemic modeling scheme using Python
   
   
 ## The Code
-   I find it easier to explain the general idea of the code going through its steps. So, if you find yourself comfortable enough to just read the *.py* and understand it without a detailed explanation, feel free to jump into it.
+   I find it easier to explain the general idea of the code and the differences betweeen the versions going through it's steps. So, if you find yourself comfortable enough to just read the *.py* files and understand it without a detailed explanation, feel free to jump into it. It's valid to point out that the verions are in fact so similiar that it's not worthy writing another README, and I'll be able to discuss the difference in further topics. 
 ### The Imports
    This section will be used to justify each one of the imports, even the ones that may seem obvious.
   

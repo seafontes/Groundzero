@@ -43,6 +43,6 @@ A basic SEIR(D) epidemic modeling scheme using Python
    * *days_incubated*: how many days the agent takes to become active;
    * *i_incubated*: value of the daily increment of the stage *Exposed*;
    * *days_infected*: how many days the agent takes to become inative again or be exterminated by the organism;
-   * *i_infected*: value of the dayly increment of the stage *Infected*;
+   * *i_infected*: value of the daily increment of the stage *Infected*;
    * *death_prob*: the death probability in each day/iteration;
 ### Funcition Definition
